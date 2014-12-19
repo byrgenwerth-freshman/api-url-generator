@@ -1,9 +1,5 @@
-require "api/url/generator/version"
+require "api_url_generator/version"
 
-module Api
-  module Url
-    module Generator
-      # Your code goes here...
-    end
-  end
+module APIURLGenerator
+  # Your code goes here...
 end

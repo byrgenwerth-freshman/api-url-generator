@@ -1,4 +1,4 @@
-class APIURLGenerator < Minitest::Test
+class APIURLGeneratorTest < Minitest::Test
   test "url generator" do
     assignment = assignments(:roman)
     assert_equal "0.0.0.0:5000/assignments/#{assignment.id}",
