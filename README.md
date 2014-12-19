@@ -1,8 +1,8 @@
-# Api::Url::Generator
+# API URL Generator
 
 TODO: Write a gem description
 
-## Installation
+<!-- ## Installation
 
 Add this line to your application's Gemfile:
 
@@ -17,7 +17,7 @@ And then execute:
 Or install it yourself as:
 
     $ gem install api-url-generator
-
+ -->
 ## Usage
 
 TODO: Write usage instructions here
