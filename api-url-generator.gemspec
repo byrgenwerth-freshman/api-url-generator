@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'api/url/generator/version'
+require 'api_url_generator/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "api-url-generator"
-  spec.version       = Api::Url::Generator::VERSION
+  spec.version       = APIURLGenerator::VERSION
   spec.authors       = ["M. A. Owens"]
   spec.email         = ["matt@cremalab.com"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
