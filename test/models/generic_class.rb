@@ -1,6 +1,6 @@
 require 'active_record'
 
-class GenericKlass
+class Generic
   extend ActiveModel::Naming
   extend  ActiveModel::Translation
 
