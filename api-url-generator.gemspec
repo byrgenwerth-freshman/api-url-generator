@@ -8,7 +8,12 @@ Gem::Specification.new do |spec|
   spec.version       = APIURLGenerator::VERSION
   spec.authors       = ["M. A. Owens"]
   spec.email         = ["matt@cremalab.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
+  spec.summary       = %q{
+      After writing a few RESTful APIs with Rails, I was always running into issues with generating URL for my resources.
+      Either, I would try to force `url_for` or `path_to` to work, but it was never ideal.
+      Since, I couldn't find any other solutions, I decide to write my own.
+      This gem helps create urls for your RESTful API to make it easier for client applications to navigate without using `ActionView::Helpers`
+  }
   spec.description   = %q{TODO: Write a longer description. Optional.}
   spec.homepage      = ""
   spec.license       = "MIT"
