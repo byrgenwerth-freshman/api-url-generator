@@ -23,8 +23,7 @@ module APIURLGenerator
         object_id = "/#{object.class.to_s.tableize.downcase}/#{object.id}"
         return "#{@@url}#{nested_id}#{object_id}"
       rescue NameError
-        p "Here"
-        raise NameError, "This or that"
+        raise ArgumentError, "Invalid parent param"
       end
     else
       return "#{@@url}/#{object.class.to_s.tableize.downcase}/#{object.id}"

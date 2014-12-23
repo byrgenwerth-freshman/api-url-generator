@@ -1,3 +1,5 @@
+require 'test_helper'
+
 
 module APIURLGenerator
   class APIURLGeneratorTest < Minitest::Test
@@ -28,7 +30,7 @@ module APIURLGenerator
         some_attribute: "This"
       })
 
-      assert_throws "NameError", "NameError was not thrown!" do
+      assert_raises(ArgumentError) do
         APIURLGenerator.generate_url(object, "project_mm")
       end
 
