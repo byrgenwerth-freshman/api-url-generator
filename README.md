@@ -20,8 +20,6 @@ Or install it yourself as:
 
 ## Usage
 
-### Dependencies
-
 If you want to include the domain declare
 
 ```
