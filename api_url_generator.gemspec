@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'api_url_generator/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "api-url-generator"
+  spec.name          = "api_url_generator"
   spec.version       = APIURLGenerator::VERSION
   spec.authors       = ["M. A. Owens"]
   spec.email         = ["matt@cremalab.com"]
