@@ -7,7 +7,7 @@ After writing a few RESTful APIs with Rails, I was always running into issues wi
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'api-url-generator'
+gem 'api_url_generator'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install api-url-generator
+    $ gem install api_url_generator
 
 ## Usage
 
