@@ -30,7 +30,6 @@ To call a single resource
 
 ```
 APIURLGenerator.generate_url(object)
-
 ```
 
 To make a nested resource
