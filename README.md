@@ -1,9 +1,5 @@
 # API URL Generator
 
-TODO: Write a gem description
-
-## Summary
-
 After writing a few RESTful APIs with Rails, I was always running into issues with generating URL for my resources. Either, I would try to force `url_for` or `path_to` to work, but it was never ideal. Since, I couldn't find anyother solutions, I decide to write my own. This gem helps create urls for your RESTful API to make it easier for client applications to navigate without using `ActionView::Helpers`
 
 ## Installation
