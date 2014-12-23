@@ -20,11 +20,31 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Dependencies
+
+If you want to include the domain declare
+
+```
+APIURLGenerator.url("0.0.0.0:5000")
+```
+
+To call a single resource
+
+```
+APIURLGenerator.generate_url(object)
+
+```
+
+To make a nested resource
+```
+APIURLGenerator.generate_url(object, "project")
+```
+
+The secound
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/api-url-generator/fork )
+1. Fork it ( https://github.com/matao/api-url-generator/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

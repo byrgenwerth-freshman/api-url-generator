@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
       Since, I couldn't find any other solutions, I decide to write my own.
       This gem helps create urls for your RESTful API to make it easier for client applications to navigate without using `ActionView::Helpers`
   }
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.description   = %q{}
   spec.homepage      = ""
   spec.license       = "MIT"
 
